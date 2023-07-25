@@ -1,0 +1,27 @@
+.footer {
+  height: 100px;
+  width: 100%;
+  background-color: #ee9417;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0 30px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  margin: 5px;
+  margin-top: 0;
+}
+
+i {
+  font-size: 25px;
+}
+
+i:hover {
+  opacity: 0.5;
+}

@@ -1,0 +1,26 @@
+.card-all {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-bottom: 80px;
+}
+
+.card {
+  /* display: flex; */
+  height: 260px;
+  width: 180px;
+  background-color: white;
+  font-size: 10px;
+  gap: 20px;
+  box-shadow: 2px 2px 3px 6px rgba(166, 158, 158, 0.358);
+  border-radius: 13px;
+  text-align: center;
+}
+
+.card img {
+  width: 180px;
+  height: 145px;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: center;
+}
